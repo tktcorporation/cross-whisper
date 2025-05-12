@@ -5,7 +5,9 @@
     "libiconv@latest",
     "nodejs@22",
     "jq@latest",
-    "direnv@latest"
+    "direnv@latest",
+    "webkitgtk@latest",
+    "librsvg@latest"
   ],
   "shell": {
     "init_hook": [

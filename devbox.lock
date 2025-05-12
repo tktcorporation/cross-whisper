@@ -197,6 +197,86 @@
         }
       }
     },
+    "librsvg@latest": {
+      "last_modified": "2025-05-06T16:34:47Z",
+      "resolved": "github:NixOS/nixpkgs/f90d0af5db814e870b2ad1aebc4e8924a30c53dd#librsvg",
+      "source": "devbox-search",
+      "version": "2.59.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/qhzl6n235kvns2fzn8hjvm1lvsqg3brf-librsvg-2.59.2",
+              "default": true
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/n3kyadwny2kjyyylrrfsz2kbpb4qpjg9-librsvg-2.59.2-devdoc"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/fwnwfx26dzhgkxxhs8c6srxhl2i328kl-librsvg-2.59.2-dev"
+            }
+          ],
+          "store_path": "/nix/store/qhzl6n235kvns2fzn8hjvm1lvsqg3brf-librsvg-2.59.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/hrcqc75amlw40mgcwic2iimfjqwzd4pd-librsvg-2.59.2",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/cglsbz77psqxmsbclcrci9p7k0rjn100-librsvg-2.59.2-dev"
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/94aa9cn3gysyvli4hqxvk2vw8vr6wawx-librsvg-2.59.2-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/hrcqc75amlw40mgcwic2iimfjqwzd4pd-librsvg-2.59.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/36a8rzzrsb3bg16chklr1lpp3kvzsh39-librsvg-2.59.2",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/pswanxqjlbjbby5abj8qy5vfnshwv28a-librsvg-2.59.2-dev"
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/x8qsdsr8sjh4f01zqzn6vr54bv87z4yb-librsvg-2.59.2-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/36a8rzzrsb3bg16chklr1lpp3kvzsh39-librsvg-2.59.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/25nkjd6y6rc7ap82frgqlga0sshvb3mx-librsvg-2.59.2",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/cd25ycapj5yqip934ycywisz0pac8kwb-librsvg-2.59.2-dev"
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/h2rlb255lcgpyffsn5gbvsq1ff0r3wgg-librsvg-2.59.2-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/25nkjd6y6rc7ap82frgqlga0sshvb3mx-librsvg-2.59.2"
+        }
+      }
+    },
     "nodejs@22": {
       "last_modified": "2025-05-06T08:06:31Z",
       "plugin_version": "0.0.2",
@@ -324,6 +404,58 @@
             }
           ],
           "store_path": "/nix/store/fdgipbzshck7iqmv06jni83bwvqzdbbf-rustup-1.27.1"
+        }
+      }
+    },
+    "webkitgtk@latest": {
+      "last_modified": "2024-10-10T05:33:31Z",
+      "resolved": "github:NixOS/nixpkgs/b69de56fac8c2b6f8fd27f2eca01dcda8e0a4221#webkitgtk",
+      "source": "devbox-search",
+      "version": "2.46.1+abi=4.0",
+      "systems": {
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/h3kmsal78h5r2n4v5nmb2ivhjx3g7vxc-webkitgtk-2.46.1+abi=4.0",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/xg0ca31qc23qg6fzciwbh5asxvz0smfp-webkitgtk-2.46.1+abi=4.0-debug"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/zsr7024v4fd0wlm26jpbh0b6pmzyppch-webkitgtk-2.46.1+abi=4.0-dev"
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/c9b0dddvadzwgp56v7q1hzk41nf4w6q5-webkitgtk-2.46.1+abi=4.0-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/h3kmsal78h5r2n4v5nmb2ivhjx3g7vxc-webkitgtk-2.46.1+abi=4.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/bxkm3685gl1grrfs8vbmghs1sa4j5gdj-webkitgtk-2.46.1+abi=4.0",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/83ifk9wif0g8j2x9xyabqhywcn49grms-webkitgtk-2.46.1+abi=4.0-debug"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/msfy59cy29jr8drznaxx3jww5k0fkffa-webkitgtk-2.46.1+abi=4.0-dev"
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/16b5pyqa4v1f2rc9kjz25zsnq9yz7jqq-webkitgtk-2.46.1+abi=4.0-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/bxkm3685gl1grrfs8vbmghs1sa4j5gdj-webkitgtk-2.46.1+abi=4.0"
         }
       }
     }
