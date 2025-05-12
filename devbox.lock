@@ -225,6 +225,102 @@
         }
       }
     },
+    "cargo-tauri@latest": {
+      "last_modified": "2025-05-06T08:06:31Z",
+      "resolved": "github:NixOS/nixpkgs/1cb1c02a6b1b7cf67e3d7731cbbf327a53da9679#cargo-tauri",
+      "source": "devbox-search",
+      "version": "2.5.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/0mbyyr3sy86cjg44dn2dv08yaimg787s-tauri-2.5.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/0mbyyr3sy86cjg44dn2dv08yaimg787s-tauri-2.5.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/60mjzvca1xfl116200hzhapn08gxxmwl-tauri-2.5.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/60mjzvca1xfl116200hzhapn08gxxmwl-tauri-2.5.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/f0fxk9ihq4zx6jx9a4n7kywnw05p9adq-tauri-2.5.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/f0fxk9ihq4zx6jx9a4n7kywnw05p9adq-tauri-2.5.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1dm0yky0y7ww4jqh2kj8nb71z1rixnih-tauri-2.5.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/1dm0yky0y7ww4jqh2kj8nb71z1rixnih-tauri-2.5.0"
+        }
+      }
+    },
+    "cargo@latest": {
+      "last_modified": "2025-05-06T08:06:31Z",
+      "resolved": "github:NixOS/nixpkgs/1cb1c02a6b1b7cf67e3d7731cbbf327a53da9679#cargo",
+      "source": "devbox-search",
+      "version": "1.86.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/bhrllqvj73qk5fp9dj2ghy5cj22ilrdv-cargo-1.86.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/bhrllqvj73qk5fp9dj2ghy5cj22ilrdv-cargo-1.86.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/j8mqrpgr07llrqb2lyl3c7h4ycmvn8xg-cargo-1.86.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/j8mqrpgr07llrqb2lyl3c7h4ycmvn8xg-cargo-1.86.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/njpxwf52d4y3d4ixnv99av5029i6md29-cargo-1.86.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/njpxwf52d4y3d4ixnv99av5029i6md29-cargo-1.86.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/dlckx46qiwsi14g0kv51kyh0bhvcni1x-cargo-1.86.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/dlckx46qiwsi14g0kv51kyh0bhvcni1x-cargo-1.86.0"
+        }
+      }
+    },
     "direnv@latest": {
       "last_modified": "2025-05-06T08:06:31Z",
       "resolved": "github:NixOS/nixpkgs/1cb1c02a6b1b7cf67e3d7731cbbf327a53da9679#direnv",
@@ -296,10 +392,6 @@
     "flake:nixpkgs#pango^dev": {
       "last_modified": "2025-05-07T00:09:58Z",
       "resolved": "github:NixOS/nixpkgs/b3582c75c7f21ce0b429898980eddbbf05c68e55?lastModified=1746576598&narHash=sha256-FshoQvr6Aor5SnORVvh%2FZdJ1Sa2U4ZrIMwKBX5k2wu0%3D#pango^dev"
-    },
-    "flake:nixpkgs#webkitgtk^dev": {
-      "last_modified": "2025-05-07T00:09:58Z",
-      "resolved": "github:NixOS/nixpkgs/b3582c75c7f21ce0b429898980eddbbf05c68e55?lastModified=1746576598&narHash=sha256-FshoQvr6Aor5SnORVvh%2FZdJ1Sa2U4ZrIMwKBX5k2wu0%3D#webkitgtk^dev"
     },
     "gdk-pixbuf@latest": {
       "last_modified": "2025-05-06T08:06:31Z",
@@ -798,42 +890,6 @@
             }
           ],
           "store_path": "/nix/store/vn0hbbmvc02gi5mczx2wpk5xc5ap00ma-harfbuzz-10.2.0"
-        }
-      }
-    },
-    "haskellPackages.webkit2gtk3-javascriptcore@latest": {
-      "last_modified": "2025-05-06T08:06:31Z",
-      "resolved": "github:NixOS/nixpkgs/1cb1c02a6b1b7cf67e3d7731cbbf327a53da9679#haskellPackages.webkit2gtk3-javascriptcore",
-      "source": "devbox-search",
-      "version": "0.14.4.6",
-      "systems": {
-        "aarch64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/j3wrqaw379kb74wg1478y92ja8bd419b-webkit2gtk3-javascriptcore-0.14.4.6",
-              "default": true
-            },
-            {
-              "name": "doc",
-              "path": "/nix/store/1a1a5jj8dwy3xfa4g9p80g5l05d3yzdw-webkit2gtk3-javascriptcore-0.14.4.6-doc"
-            }
-          ],
-          "store_path": "/nix/store/j3wrqaw379kb74wg1478y92ja8bd419b-webkit2gtk3-javascriptcore-0.14.4.6"
-        },
-        "x86_64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/r02i103lbi382s6y2if4032bsq1b3p0y-webkit2gtk3-javascriptcore-0.14.4.6",
-              "default": true
-            },
-            {
-              "name": "doc",
-              "path": "/nix/store/mwyykn3242kzp9njcg85jhwxaans56k1-webkit2gtk3-javascriptcore-0.14.4.6-doc"
-            }
-          ],
-          "store_path": "/nix/store/r02i103lbi382s6y2if4032bsq1b3p0y-webkit2gtk3-javascriptcore-0.14.4.6"
         }
       }
     },
@@ -1631,12 +1687,6 @@
         }
       }
     },
-    "webkit@latest": {
-      "last_modified": "2022-02-20T08:57:45Z",
-      "resolved": "github:NixOS/nixpkgs/7feed2c0bec4161c83509d18089784cfcef49667#webkit",
-      "source": "devbox-search",
-      "version": "2.34.6"
-    },
     "webkitgtk@latest": {
       "last_modified": "2024-10-10T05:33:31Z",
       "resolved": "github:NixOS/nixpkgs/b69de56fac8c2b6f8fd27f2eca01dcda8e0a4221#webkitgtk",
@@ -1686,6 +1736,58 @@
             }
           ],
           "store_path": "/nix/store/bxkm3685gl1grrfs8vbmghs1sa4j5gdj-webkitgtk-2.46.1+abi=4.0"
+        }
+      }
+    },
+    "webkitgtk_4_1@latest": {
+      "last_modified": "2025-05-06T16:34:47Z",
+      "resolved": "github:NixOS/nixpkgs/f90d0af5db814e870b2ad1aebc4e8924a30c53dd#webkitgtk_4_1",
+      "source": "devbox-search",
+      "version": "2.48.1+abi=4.1",
+      "systems": {
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/y5s6kr4zilzjkc5dvkl21r2svm5mwap8-webkitgtk-2.48.1+abi=4.1",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/5kr148jq1ssvhjhafsl1dwhks7x4nx0g-webkitgtk-2.48.1+abi=4.1-dev"
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/xhbjgrhy6sm1jma43axv5c0gqyzfgm0l-webkitgtk-2.48.1+abi=4.1-devdoc"
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/pjcrvfrypnx9akd9ip72qnwwfhc8qjss-webkitgtk-2.48.1+abi=4.1-debug"
+            }
+          ],
+          "store_path": "/nix/store/y5s6kr4zilzjkc5dvkl21r2svm5mwap8-webkitgtk-2.48.1+abi=4.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/jpg16352qp12rh2g2nqmnqsn77xw1zri-webkitgtk-2.48.1+abi=4.1",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/lfahvfai5sznacng82z72bq3vwyn9l74-webkitgtk-2.48.1+abi=4.1-debug"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/ll1kf9mlp4s7ci0q3s707kswfsrwgizl-webkitgtk-2.48.1+abi=4.1-dev"
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/y50bz1ppy9nqqlrf4w2mj6adkl8yikkr-webkitgtk-2.48.1+abi=4.1-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/jpg16352qp12rh2g2nqmnqsn77xw1zri-webkitgtk-2.48.1+abi=4.1"
         }
       }
     }
