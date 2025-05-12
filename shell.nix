@@ -29,7 +29,6 @@ pkgs.mkShell {
     pango
     pango.dev
     webkitgtk_4_1
-    webkitgtk
     openssl
   ];
 
