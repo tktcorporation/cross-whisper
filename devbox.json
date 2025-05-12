@@ -8,7 +8,22 @@
     "direnv@latest",
     "webkitgtk@latest",
     "librsvg@latest",
-    "pnpm@latest"
+    "pnpm@latest",
+
+    // for tauri
+    "pkg-config@latest",
+    "gobject-introspection@latest",
+    "at-spi2-atk@latest",
+    "atkmm@latest",
+    "cairo@latest",
+    "gdk-pixbuf@latest",
+    "glib@latest",
+    "gtk3@latest",
+    "harfbuzz@latest",
+    "librsvg@latest",
+    "libsoup_3@latest",
+    "pango@latest",
+    "openssl@latest"
   ],
   "shell": {
     "init_hook": [
