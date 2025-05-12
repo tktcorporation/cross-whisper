@@ -273,6 +273,34 @@
         }
       }
     },
+    "flake:nixpkgs#cairo^dev": {
+      "last_modified": "2025-05-07T00:09:58Z",
+      "resolved": "github:NixOS/nixpkgs/b3582c75c7f21ce0b429898980eddbbf05c68e55?lastModified=1746576598&narHash=sha256-FshoQvr6Aor5SnORVvh%2FZdJ1Sa2U4ZrIMwKBX5k2wu0%3D#cairo^dev"
+    },
+    "flake:nixpkgs#gdk-pixbuf^dev": {
+      "last_modified": "2025-05-07T00:09:58Z",
+      "resolved": "github:NixOS/nixpkgs/b3582c75c7f21ce0b429898980eddbbf05c68e55?lastModified=1746576598&narHash=sha256-FshoQvr6Aor5SnORVvh%2FZdJ1Sa2U4ZrIMwKBX5k2wu0%3D#gdk-pixbuf^dev"
+    },
+    "flake:nixpkgs#glib^dev": {
+      "last_modified": "2025-05-07T00:09:58Z",
+      "resolved": "github:NixOS/nixpkgs/b3582c75c7f21ce0b429898980eddbbf05c68e55?lastModified=1746576598&narHash=sha256-FshoQvr6Aor5SnORVvh%2FZdJ1Sa2U4ZrIMwKBX5k2wu0%3D#glib^dev"
+    },
+    "flake:nixpkgs#gtk3^dev": {
+      "last_modified": "2025-05-07T00:09:58Z",
+      "resolved": "github:NixOS/nixpkgs/b3582c75c7f21ce0b429898980eddbbf05c68e55?lastModified=1746576598&narHash=sha256-FshoQvr6Aor5SnORVvh%2FZdJ1Sa2U4ZrIMwKBX5k2wu0%3D#gtk3^dev"
+    },
+    "flake:nixpkgs#libsoup_3^dev": {
+      "last_modified": "2025-05-07T00:09:58Z",
+      "resolved": "github:NixOS/nixpkgs/b3582c75c7f21ce0b429898980eddbbf05c68e55?lastModified=1746576598&narHash=sha256-FshoQvr6Aor5SnORVvh%2FZdJ1Sa2U4ZrIMwKBX5k2wu0%3D#libsoup_3^dev"
+    },
+    "flake:nixpkgs#pango^dev": {
+      "last_modified": "2025-05-07T00:09:58Z",
+      "resolved": "github:NixOS/nixpkgs/b3582c75c7f21ce0b429898980eddbbf05c68e55?lastModified=1746576598&narHash=sha256-FshoQvr6Aor5SnORVvh%2FZdJ1Sa2U4ZrIMwKBX5k2wu0%3D#pango^dev"
+    },
+    "flake:nixpkgs#webkitgtk^dev": {
+      "last_modified": "2025-05-07T00:09:58Z",
+      "resolved": "github:NixOS/nixpkgs/b3582c75c7f21ce0b429898980eddbbf05c68e55?lastModified=1746576598&narHash=sha256-FshoQvr6Aor5SnORVvh%2FZdJ1Sa2U4ZrIMwKBX5k2wu0%3D#webkitgtk^dev"
+    },
     "gdk-pixbuf@latest": {
       "last_modified": "2025-05-06T08:06:31Z",
       "resolved": "github:NixOS/nixpkgs/1cb1c02a6b1b7cf67e3d7731cbbf327a53da9679#gdk-pixbuf",
@@ -770,6 +798,42 @@
             }
           ],
           "store_path": "/nix/store/vn0hbbmvc02gi5mczx2wpk5xc5ap00ma-harfbuzz-10.2.0"
+        }
+      }
+    },
+    "haskellPackages.webkit2gtk3-javascriptcore@latest": {
+      "last_modified": "2025-05-06T08:06:31Z",
+      "resolved": "github:NixOS/nixpkgs/1cb1c02a6b1b7cf67e3d7731cbbf327a53da9679#haskellPackages.webkit2gtk3-javascriptcore",
+      "source": "devbox-search",
+      "version": "0.14.4.6",
+      "systems": {
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/j3wrqaw379kb74wg1478y92ja8bd419b-webkit2gtk3-javascriptcore-0.14.4.6",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/1a1a5jj8dwy3xfa4g9p80g5l05d3yzdw-webkit2gtk3-javascriptcore-0.14.4.6-doc"
+            }
+          ],
+          "store_path": "/nix/store/j3wrqaw379kb74wg1478y92ja8bd419b-webkit2gtk3-javascriptcore-0.14.4.6"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/r02i103lbi382s6y2if4032bsq1b3p0y-webkit2gtk3-javascriptcore-0.14.4.6",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/mwyykn3242kzp9njcg85jhwxaans56k1-webkit2gtk3-javascriptcore-0.14.4.6-doc"
+            }
+          ],
+          "store_path": "/nix/store/r02i103lbi382s6y2if4032bsq1b3p0y-webkit2gtk3-javascriptcore-0.14.4.6"
         }
       }
     },
@@ -1566,6 +1630,12 @@
           "store_path": "/nix/store/fdgipbzshck7iqmv06jni83bwvqzdbbf-rustup-1.27.1"
         }
       }
+    },
+    "webkit@latest": {
+      "last_modified": "2022-02-20T08:57:45Z",
+      "resolved": "github:NixOS/nixpkgs/7feed2c0bec4161c83509d18089784cfcef49667#webkit",
+      "source": "devbox-search",
+      "version": "2.34.6"
     },
     "webkitgtk@latest": {
       "last_modified": "2024-10-10T05:33:31Z",

@@ -7,6 +7,7 @@
     "jq@latest",
     "direnv@latest",
     "webkitgtk@latest",
+    "flake:nixpkgs#webkitgtk^dev",
     "librsvg@latest",
     "pnpm@latest",
 
@@ -18,22 +19,30 @@
     "cairo@latest",
     "gdk-pixbuf@latest",
     "glib@latest",
+    "flake:nixpkgs#glib^dev",
     "gtk3@latest",
+    "flake:nixpkgs#gtk3^dev",
     "harfbuzz@latest",
-    "librsvg@latest",
     "libsoup_3@latest",
+    "flake:nixpkgs#cairo^dev",
+    "flake:nixpkgs#gdk-pixbuf^dev",
+    "flake:nixpkgs#libsoup_3^dev",
     "pango@latest",
-    "openssl@latest"
+    "flake:nixpkgs#pango^dev",
+    "openssl@latest",
+    "haskellPackages.webkit2gtk3-javascriptcore@latest",
+    "webkit@latest",
   ],
   "shell": {
     "init_hook": [
       "export PATH=\"$HOME/.cargo/bin:$PATH\"",
-      "rustup default stable"
+      "rustup default stable",
+      "export PKG_CONFIG_PATH=$(pkg-config --variable pc_path pkg-config):$PKG_CONFIG_PATH",
     ],
     "scripts": {
       "test":       "cargo test -- --show-output",
       "start":      "cargo run",
-      "build-docs": "cargo doc"
-    }
-  }
+      "build-docs": "cargo doc",
+    },
+  },
 }
